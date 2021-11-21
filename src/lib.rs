@@ -1,9 +1,7 @@
 /*! The ableOS provided library for use with the wasm loader and target
 
 
-`NOTE: All full caps functions are `
-
-*/
+`NOTE: All full caps functions are currently incomplete`*/
 #![no_std]
 
 mod panic;
