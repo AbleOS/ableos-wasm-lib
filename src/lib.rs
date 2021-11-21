@@ -25,19 +25,20 @@ extern "C" {
     pub fn console_get_title();
     /// Set the console title
     pub fn console_set_title();
-    // /*
+
     /// Get the proccess ID
-    pub fn GET_PID();
+    pub fn get_pid();
     /// Get information about the process
-    pub fn PROCESS_INFO();
+    pub fn proccess_info();
+
     //scheduler Related Syscals
     /// Get scheduler priority
-    pub fn GET_PRIORITY();
+    pub fn get_priority();
     /// Set scheduler priority
-    pub fn SET_PRIORITY();
+    pub fn set_priority();
     //
-    pub fn GET_HOSTNAME();
-    pub fn SET_HOSTNAME();
+    pub fn get_hostname();
+    pub fn set_hostname();
 
     //File Related syscalls
     //
